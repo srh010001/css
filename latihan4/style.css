@@ -1,0 +1,48 @@
+/*rumus untuk melihat span dan div
+.navigasi{
+	background-color: purple;
+}
+.main {
+	background-color: lightblue;
+}
+.main span{
+	background-color: pink;
+}*/
+/*elemen height dan width tidak dapat mengatur inline
+a {
+	background-color: pink;
+	width: 20px;
+	height:20px;
+
+}
+img{
+	width: 200px;
+	height:200px;
+}*/
+/*tidak ada yang inline-block tapi properti tersebut harus ditambahkan
+a {
+	background-color: pink;
+	width: 200px;
+	height:200px;
+	display: inline-block;
+}
+img{
+	width: 200px;
+	height:200px;*/
+/*elemen HTML yang secara default menambahkan baris baru ketika dibuat*/
+a{
+	background-color:pink;
+}
+
+.main{
+	width: 600px;
+	background-color:lightgreen;
+}
+.main h2{
+	background-color: pink;
+}
+img{
+	width:250px;
+	height:300px;
+/*	display: none; untuk menghilangkan img*/
+}
