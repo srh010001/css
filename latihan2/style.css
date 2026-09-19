@@ -1,0 +1,23 @@
+h1{
+	font-family:"Times New Roman";
+	color:purple;
+	font-size:100px;
+	font-weight:normal;
+	font-variant:small-caps;
+	font-style:italic;
+}
+p{
+	font-family:sans-serif;
+	color:green;
+	font-size:50px;
+	font-weight:bold;
+	font-variant: normal;
+	font-style:oblique;
+	line-height: 50px;
+}
+body{
+	font-family:verdana;
+	color:yellow;
+	font-size:100px;
+	font-weight:bolder;
+}
