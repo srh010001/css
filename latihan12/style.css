@@ -1,0 +1,45 @@
+body{
+	height: 2000px;
+}
+.kotak{
+	background-color: black;
+	position:fixed;
+	top:100px;
+	left:100px;
+	right:100px;
+	bottom:100px;
+	opacity:0.7; /*css3*/
+}
+.kotak .close{
+	width:50px;
+	height: 50px;
+	background-color:white;
+	border:2px solid black;
+	border-radius:50%;/*css3*/
+	position:absolute;
+	top:-15px;
+	right:-15px;
+}/*untuk membuat iklan ngambang*/
+h1{
+	margin-top:50px;
+}
+/*div{
+	width: 200px;
+	height: 200px;
+	position:absolute;
+}
+.satu{
+	z-index:-999;
+	background-color:lightblue;
+}
+.dua{
+	z-index:1;
+	top:100px;
+	left:100px;
+	background-color:lightgreen;
+}
+.tiga{
+	top:200px;
+	left:200px;
+	background-color:salmon;
+}*/
