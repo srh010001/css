@@ -1,0 +1,27 @@
+/*div{
+	width: 185px;
+	height: 200px;
+	background-color: coral;
+	margin:20px auto;
+	padding:50px;
+	border-right:5px dashed red;
+	border-left:10px dashed red;
+}*/
+/*padding tata rumusnya sama dengan margin namun tidak bisa negatif dan auto
+dotted untuk titik2. dashed untuk garis2. double untuk garis dua*/
+/*penggunaan border itu untuk kotak yang sama maka harus mengurangi antara width pada total dengan padding, margin, maupun border pada dua paragraf tersebut. nah untuk itu menggunakan properti box sizing*/
+div{
+	width: 600px;
+	margin:10px auto;
+	box-sizing:border-box;
+}
+.satu{
+	border:5px solid black;
+	padding:10px;
+	background-color: royalblue;
+}
+.dua{
+	border:10px dotted black;
+	padding:30px;
+	background-color: orange;
+}
