@@ -1,0 +1,12 @@
+h1{
+	font-size:100px;
+	font-family:arial;
+	text-lign:center;
+	/*text-shadow:5px 5px 10px green,
+	-5px -5px 10px red;*/
+	text-shadow:0 2px 3px red,
+	0 2px 3px yellow;
+	color:white;
+	background-color:black;
+
+}

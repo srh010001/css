@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 900px;
+	height: 640px;
+	margin: 10px auto;
+	border:5px solid black;
+}
+.kotak{
+	background-color:red;
+	width: 100px;
+	height: 100px;
+	line-height:center;
+	margin: 5px 0;
+}
+.kotak1{
+	transition:margin-left 3s,transform 3s 2s, background-color 500ms 3s;
+	/*transition: all 3s 2s ease;*/
+}
+.kotak2{transition: all 3s  ease-in;}
+.kotak3{transition: all 3s ease-out;}
+.kotak4{transition: all 3s ease-in-out;}
+.kotak5{transition: all 3s linear;}
+.kotak6{transition: all 3s cubic-bezier(0.24,-0.35,0.78,1.46);}
+.container:hover .kotak{
+	transform:rotate(720deg);
+	margin-left: 800px;
+	background-color: blue;
+}

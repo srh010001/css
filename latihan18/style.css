@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'pt_sans_captionbold';
+/*    src: url('PTC75F-webfont.eot');
+    src: url('PTC75F-webfont.eot?#iefix') format('embedded-opentype'),
+         url('PTC75F-webfont.woff2') format('woff2'),*/
+    src: url('PTC75F-webfont.woff') format('woff');
+ /*        url('PTC75F-webfont.ttf') format('truetype'),
+         url('PTC75F-webfont.svg#pt_sans_captionbold') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+/*@font-face{
+	font-family:"Alex Brush";
+	src:url('AlexBrush-Regular.ttf') format('truetype');
+}*/
+
+h1{
+	font-size:100px;
+	text-align:center;
+	font-family:'pt_sans_captionbold',verdana;
+	/*font-family:"Alex Brush",arial;*/
+}

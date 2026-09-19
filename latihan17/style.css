@@ -1,0 +1,12 @@
+div{
+	width: 600px;
+	height: 300px;
+	margin: 50px auto;
+	background-image:radial-gradient(
+		circle closest-corner at center, purple,salmon, lightblue);
+	/*background-image:radial-gradient(salmon 60%, purple 80%, lightblue 40%);
+	/*background-image: linear-gradient(to right,salmon 50%,magenta 63%);
+	/*background-image: linear-gradient(10deg,
+		bottom,salmon,magenta);
+	background-image: linear-gradient(purple,blue,rgba(255,0,0,1),salmon);*/
+}
