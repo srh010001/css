@@ -1,0 +1,10 @@
+
+/*px itu absolute, % sebut nilai relatif pada elemen parent, 
+in,cm,mm,u/ ukuran font itu pt(point),pc(paica)*/
+.satu{
+	width:200px;
+	height:200px;
+	background-color: lightblue;
+	overflow:hidden;
+}
+/*overflow untuk mengatur dimensi menjadi lebih teratur seperti auto untuk sesuai dengan kata yang ada pada warna, hidden mengahapus kata yang tidak pada warna, scroll*/
